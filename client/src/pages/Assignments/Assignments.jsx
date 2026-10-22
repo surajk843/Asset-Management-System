@@ -10,9 +10,9 @@ import {
 
 import DashboardLayout from "../../layouts/DashboardLayout";
 
-const ASSIGNMENT_API = "http://localhost:5000/api/assignments";
-const ASSET_API = "http://localhost:5000/api/assets";
-const USER_API = "http://localhost:5000/api/users";
+const ASSIGNMENT_API = `${import.meta.env.VITE_API_BASE_URL}/assignments`;
+const ASSET_API = `${import.meta.env.VITE_API_BASE_URL}/assets`;
+const USER_API = `${import.meta.env.VITE_API_BASE_URL}/users`;
 
 const emptyForm = {
   asset_id: "",

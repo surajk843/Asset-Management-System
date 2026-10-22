@@ -13,7 +13,7 @@ import {
 import DashboardLayout from "../../layouts/DashboardLayout";
 
 const SEARCH_API =
-  "http://localhost:5000/api/dashboard/global-search";
+  `${import.meta.env.VITE_API_BASE_URL}/dashboard/global-search`;
 
 function Search() {
   const [keyword, setKeyword] = useState("");
