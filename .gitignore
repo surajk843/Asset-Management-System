@@ -1,0 +1,33 @@
+node_modules/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Build
+dist/
+build/
+
+# Cache
+.vite/
+coverage/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+node_modules/
+client/node_modules/
+server/node_modules/
+client/dist/
+server/.env
+client/.env
+server/ca.pem
